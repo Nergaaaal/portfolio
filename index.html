@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: https://ogp.me/ns#">
 
 <head>
     <meta charset="UTF-8">
@@ -15,17 +15,38 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap"
         rel="stylesheet">
 
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Nurbol Amangeldiyev | Product Manager">
+    <meta property="og:description" content="Product Manager building growth engines. 200k+ active users, 18% churn recovery, 47k organic installs.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cv.amangeldiyev.tech">
+    <meta property="og:image" content="https://cv.amangeldiyev.tech/og-image.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Nurbol Amangeldiyev | Product Manager">
+    <meta name="twitter:description" content="Product Manager building growth engines. 200k+ active users, 18% churn recovery, 47k organic installs.">
+    <meta name="twitter:image" content="https://cv.amangeldiyev.tech/og-image.svg">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <nav class="site-nav">
+        <a href="#hero" class="nav-logo">Nurbol Amangeldiyev</a>
+        <div class="nav-links">
+            <a href="#experience">Experience</a>
+            <a href="#tech-stack">Skills</a>
+            <a href="#footer">Contact</a>
+        </div>
+    </nav>
     <main class="container">
         <!-- Hero Section -->
         <section id="hero" class="fade-in">
             <header>
                 <h1>Nurbol Amangeldiyev</h1>
                 <p class="subtitle">Product Manager <span class="accent">|</span> Building Growth Engines</p>
-                <a href="Нурбол Амангелдиев - Product manager.pdf" download class="btn-primary">Download Resume</a>
             </header>
         </section>
 
@@ -198,14 +219,25 @@
         </section>
 
         <!-- Footer -->
-        <footer class="fade-in">
+        <footer id="footer" class="fade-in">
             <div class="contact-methods">
                 <a href="mailto:Amangeldiyev.nurbol@gmail.com" class="contact-link">Email</a>
                 <a href="https://www.linkedin.com/in/nurbol-amangeldiyev-b368a624b" class="contact-link"
                     target="_blank">LinkedIn</a>
                 <a href="https://t.me/NurbolAmangeldiyev" class="contact-link" target="_blank">Telegram</a>
             </div>
-            <p class="copyright">&copy; 2026 Nurbol Amangeldiyev.</p>
+            <div class="footer-right">
+                <a href="Nurbol Amangeldiyev - Product Manager.pdf" download class="btn-primary btn-cv">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    Download CV
+                </a>
+                <p class="copyright">&copy; 2026 Nurbol Amangeldiyev.</p>
+            </div>
         </footer>
     </main>
 

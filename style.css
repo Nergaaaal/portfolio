@@ -16,6 +16,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
@@ -101,6 +105,46 @@ p {
     background-color: #1D4ED8;
     /* Darker shade of Vibrant Blue */
     transform: translateY(-2px);
+}
+
+/* Navigation */
+.site-nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.nav-logo {
+    font-weight: 800;
+    font-size: 1rem;
+    color: var(--text-color);
+    text-decoration: none;
+    letter-spacing: -0.01em;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: var(--secondary-text);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.nav-links a:hover {
+    color: var(--accent-color);
 }
 
 /* Hero Section */
@@ -281,7 +325,7 @@ footer {
     padding-top: 4rem;
     border-top: 1px solid #E5E5E5;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .contact-methods {
@@ -300,6 +344,22 @@ footer {
 .contact-link:hover {
     opacity: 1;
     color: var(--accent-color);
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.75rem;
+}
+
+.btn-cv {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0;
+    padding: 0.6rem 1.4rem;
+    font-size: 0.9rem;
 }
 
 .copyright {
@@ -328,5 +388,17 @@ footer {
     footer {
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .footer-right {
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        gap: 1.2rem;
+    }
+
+    .nav-logo {
+        font-size: 0.9rem;
     }
 }

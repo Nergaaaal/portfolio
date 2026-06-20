@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#FFFFFF"/>
+  <rect width="8" height="630" fill="#2563EB"/>
+  <text x="80" y="240" font-family="Inter,Arial,sans-serif" font-size="72" font-weight="800" fill="#111111" letter-spacing="-2">Nurbol Amangeldiyev</text>
+  <text x="80" y="320" font-family="'Courier New',monospace" font-size="32" fill="#555555">Product Manager | Building Growth Engines</text>
+  <text x="80" y="430" font-family="Inter,Arial,sans-serif" font-size="24" fill="#2563EB" font-weight="600">200k+ Users</text>
+  <text x="260" y="430" font-family="Inter,Arial,sans-serif" font-size="24" fill="#CCCCCC">·</text>
+  <text x="290" y="430" font-family="Inter,Arial,sans-serif" font-size="24" fill="#2563EB" font-weight="600">18% Churn Recovery</text>
+  <text x="560" y="430" font-family="Inter,Arial,sans-serif" font-size="24" fill="#CCCCCC">·</text>
+  <text x="590" y="430" font-family="Inter,Arial,sans-serif" font-size="24" fill="#2563EB" font-weight="600">47k Organic Installs</text>
+  <text x="80" y="570" font-family="Inter,Arial,sans-serif" font-size="22" fill="#AAAAAA">cv.amangeldiyev.tech</text>
+</svg>
